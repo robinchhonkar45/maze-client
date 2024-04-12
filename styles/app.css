@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.col {
+  flex: 1;
+  align-self: center;
+}
+
+.cell, .real-cell {
+  height: 100px;
+  width: 100px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.real-cell {
+  height: 32px;
+  width: 32px;
+}
+
+.wall {
+  background-color: black;
+}
+
+.border-left {
+  border-left: 1px solid black;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.border-top {
+  border-top: 1px solid black;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
